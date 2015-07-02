@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+  <title>login </title>
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="stylesheet" href="style/index_style.css">
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+p {
+	font-size: 26px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+hr {
+background:#000;
+height:5px;
+border:none;
+}
+</style>
+	<script>
+
+          function reloj() {
+          	var fecha = new Date();
+          	var h = fecha.getHours();
+          	var m = fecha.getMinutes();
+          	var s = fecha.getSeconds();
+          	var dia = fecha.getDate();
+          	var mes =  fecha.getMonth("i")+1;
+          	var ano = fecha.getFullYear();
+           	document.getElementById('reloj') .innerHTML = dia + " /" + mes + "/"+ ano+ " _<th> " + h + " : " + m + " :" + s  ;
+
+           	setTimeout('reloj()', 1000);
+
+          }
+	</script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+<body onload ="reloj()"  background="../img/fon1.png">
+
+
+
+<div class="container" >
+<div align="center">
+
+  <div id="reloj" align ="center">	</div>
+  <p class="h2">SISTEMA DE VESER (Visualizador De Estatus De Servicios De Equipos En Reparaciòn)  </p>
+
+   	<header>
+		<div class="contenedor" id="uno"><a href="../registro_us/registros.php">
+			<img class="icon" src="../img/em.png">
+			</a><p class="texto">Registros De Empleados</p>
+		</div>
+
+
+		<div class="contenedor" id="dos"><a href="../vista/o_t.php">
+			<img class="icon" src="../img/icon6.png">
+			</a><p class="texto">Registros OT</p>
+		</div>
+	
+	<div class="contenedor" id="tres"><a href="../estatus/estatus_clie.php">
+			<img class="icon" src="../img/icon4.png">
+			</a><p class="texto">Estatus</p>
+		</div>
+
+		<div class="contenedor" id="cuatro"><a href="../vista/modificarInformacion.php">
+			<img class="icon" src="../img/icon2.png">
+			</a><p class="texto">Estatus General</p>
+		</div>
+
+		<div class="contenedor" id="cinco"><a href="../tecnico/tecnico.php">
+			<img class="icon" src="../img/icon3.png">
+			</a><p class="texto">Tècnico</p>
+		</div>
+		<div class="contenedor" id="seis"><a href="../mensajeria/mensajeria.php">
+			<img class="icon" src="../img/icon7.png">
+			</a><p class="texto">Mensajerias</p>
+		</div>
+	
+	</header>
+	 
+    <br>
+	<br>
+	<br>
+   <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+    <hr> 
+	
+
+</body>
+</html>

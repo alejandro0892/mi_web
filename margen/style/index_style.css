@@ -1,0 +1,172 @@
+
+.container{
+	width: 98%;
+	max-width:1180px;
+	min-width: 40px;
+	background-color: rgba(15, 15, 15, 0.5);
+	margin: auto;
+    overflow:hidden;
+}
+
+
+
+header{
+	margin: auto;
+	width: 98%;
+	max-width:1180px;
+	min-width: 30px;
+	height: 250px;
+	background:red;
+
+	
+}
+div.contenedor{
+
+    width: 16.66666667%;
+    height: 250px;
+    float:left;
+    -webkit-transition: height .4s;
+    -moz-transition: height .4s;
+    -ms-transition: height .4s;
+
+}
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+img.menu{
+	
+	display: block;
+	margin: 50px 0px 0px 0px ;
+	background-color: rgba(255,255,255, 0.15);
+	width: 40px;
+	padding: 1px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-moz-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-ms-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-o-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	transition: box-shadow .4s;
+    -webkit-transition: box-shadow .4s;
+    -moz-transition: box-shadow .4s;
+	-ms-transition: box-shadow .4s;
+	-o-transition: box-shadow .4s;
+}
+
+
+
+
+img.icon{
+	display: block;
+	margin: 30px auto;
+	background-color: rgba(255,255,255, 0.15);
+	width: 100px;
+	padding: 1px;
+	border-radius: 50px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-moz-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-ms-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	-o-box-shadow: 0px 0px 0px 30px rgba(255,255,255, 0);
+	transition: box-shadow .4s;
+    -webkit-transition: box-shadow .4s;
+    -moz-transition: box-shadow .4s;
+	-ms-transition: box-shadow .4s;
+	-o-transition: box-shadow .4s;
+}
+p.h2{
+     color: #00FFFF;
+	text-align: center;
+}
+
+p.texto{
+
+	font-size: 1.2em;
+	color: white;
+	text-align: center; 
+	padding-top: 10px;
+	opacity: 0.6;
+	transition: padding-top .4s;
+	-webkit-transition: padding-top .4s;
+	-moz-transition: padding-top .4s;
+	-ms-transition: padding-top .4s;
+}
+div.contenedor:hover{
+	height: 250px;
+
+
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+
+}
+
+div.contenedor:hover img.icon{
+     box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+	-ms-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+img.menu:hover {
+     box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, .6);
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, .6);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, .6);
+	-ms-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, .6);
+}
+
+#reloj	{
+		color: #ff8000;
+        align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+
+@media screen and (max-width: 600px){
+  div.contenedor{
+ width:100%;
+ }
+ header{
+    width:90%;
+ }
+}	
+
+@media screen and (max-width: 400px){
+  div.contenedor{
+ width:100%;
+ }
+ header{
+    width:90%;
+ }
+}	
